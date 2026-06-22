@@ -1,0 +1,43 @@
+.button {
+    border: none;
+    padding: 40px;
+    outline: none;
+    border-radius: 6px;
+    transition-duration:0.7s;
+    margin: 30px;
+    font-size: 40px;
+    color: rgba(50, 58, 126, 1);
+    background: rgba(120, 168, 219, 1);
+}
+
+.button:hover {
+    background: rgba(70, 118, 169, 1);
+}
+
+#buttons {
+    padding: 20px;
+    text-align: center;
+}
+
+#display {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+body {
+    background: navy;
+    color: rgba(104, 118, 255, 1);
+    font-family: hacked; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 120px;
+    
+}
+
+@font-face {
+    font-family: hacked;
+    src: url('hacked.ttf');
+}
